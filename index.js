@@ -35,7 +35,7 @@ app.post('/test', (req, res) => {
      ans = fibonacci(fib);
   }
   
-  res.send(toString(ans));
+  res.send(ans.toString());
 });
 
 
